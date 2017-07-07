@@ -1,0 +1,61 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MopoTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="MopoTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="MopoTheme.Main" parent="MopoTheme">
+        <item name="android:background">@color/mopoBranco</item>
+    </style>
+
+    <style name="MopoTheme.Card" parent="MopoTheme" />
+    <style name="MopoTheme.Card.Consolidado" parent="MopoTheme.Card" />
+    <style name="MopoTheme.Card.Consolidado.Titulo" parent="MopoTheme.Card.Consolidado">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/mopoBranco</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="MopoTheme.Card.Consolidado.Table.RowTitulo" parent="MopoTheme.Card.Consolidado">
+        <item name="android:background">@drawable/rounded_border_edit_text</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="MopoTheme.Card.Consolidado.Header" parent="MopoTheme.Card.Consolidado">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/mopoCinzaEscuro</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:layout_gravity">left</item>
+    </style>
+    <style name="MopoTheme.Card.Consolidado.Valor" parent="MopoTheme.Card.Consolidado">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textColor">@color/mopoBlue</item>
+        <!--<item name="android:textStyle">bold</item>-->
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <style name="MopoTheme.Card.Consolidado.Table.Row" parent="MopoTheme.Card.Consolidado">
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="MopoTheme.Main.Page" parent="MopoTheme.Main">
+
+    </style>
+</resources>

@@ -1,0 +1,101 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="350dp"
+    card:cardBackgroundColor="@color/mopoBranco"
+    card:cardCornerRadius="5dp"
+    card:cardElevation="10dp"
+    card:cardUseCompatPadding="true"
+    card:contentPadding="0dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top">
+
+        <TableRow style="@style/MopoTheme.Card.Consolidado.Table.RowTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <TextView
+                android:id="@+id/tituloCardConsolidado"
+                style="@style/MopoTheme.Card.Consolidado.Titulo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Teste"
+                android:layout_weight="1"/>
+        </TableRow>
+        <!--<TableRow  android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--style="@style/MopoTheme.Card.Consolidado.Table.Row">-->
+            <!--<TextView-->
+                <!--android:id="@+id/headerTotalOrcado"-->
+                <!--style="@style/MopoTheme.Card.Consolidado.Header"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="28dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Orçamento" />-->
+            <!--<TextView-->
+                <!--android:id="@+id/valorTotalOrcado"-->
+                <!--style="@style/MopoTheme.Card.Consolidado.Valor"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="28dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="R$12.000,00" />-->
+        <!--</TableRow>-->
+        <!--<TableRow  android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--style="@style/MopoTheme.Card.Consolidado.Table.Row">-->
+            <!--<TextView-->
+                <!--android:id="@+id/headerTotalRealizado"-->
+                <!--style="@style/MopoTheme.Card.Consolidado.Header"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="28dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="Realizado" />-->
+            <!--<TextView-->
+                <!--android:id="@+id/valorTotalRealizado"-->
+                <!--style="@style/MopoTheme.Card.Consolidado.Valor"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="28dp"-->
+                <!--android:layout_weight="1"-->
+                <!--android:text="R$3.400,00" />-->
+        <!--</TableRow>-->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:padding="0dp">
+        <ProgressBar
+            android:id="@+id/determinateBar"
+            style="@android:style/Widget.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:layout_weight="1"
+            android:minHeight="5dip"
+            android:maxHeight="6dip"
+            android:visibility="gone"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            />
+        </TableRow>
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="0dp">
+
+            <WebView
+                android:id="@+id/graficoBarras"
+                android:layout_width="250dp"
+                android:layout_height="210dp"
+                android:layout_weight="1"
+                android:layout_span="2"
+                android:layout_gravity="center"
+                />
+        </TableRow>
+
+
+    </TableLayout>
+
+
+</android.support.v7.widget.CardView>

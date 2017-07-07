@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MOPO</string>
+    <string name="action_settings">Settings</string>
+    <string name="label_curto_aba_consolidado">CONSOLIDADO</string>
+    <string name="label_curto_aba_recorrente">RECORRENTES</string>
+    <string name="label_curto_card_recorrente">Despesas Essenciais</string>
+    <string name="label_curto_card_nao_essenciais">Despesas Não Essenciais</string>
+    <string name="label_curto_card_rendimentos">Rendimentos</string>
+    <string name="label_curto_card_totalizacao">Totalização</string>
+</resources>

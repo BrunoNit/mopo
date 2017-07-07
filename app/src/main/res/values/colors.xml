@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008aad</color>
+    <color name="colorPrimaryDark">#004a5c</color>
+    <color name="colorAccent">#fc6719</color>
+
+    <color name="mopoBranco">#fff</color>
+    <color name="mopoBlue">#008aad</color>
+    <color name="mopoLaranja">#fc6719</color>
+    <color name="mopoLightBlue">#47d5f9</color>
+    <color name="mopoCinza">#cecdcd</color>
+    <color name="mopoCinzaEscuro">#686363</color>
+</resources>
